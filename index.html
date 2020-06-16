@@ -61,7 +61,8 @@
 				}
 			#dazi{
 				color: white;	
-				width: 350px;
+				width: fit-content;
+				height: fit-content;
 				margin: 0 auto;
 				text-align: center;
 				font-size: 50px;
@@ -108,10 +109,12 @@
 				
 			}
 			.font{
-				font-size: 20px;
+				width: fit-content;
+				height:  fit-content;
+				font-size: 50px;
 				font-weight: bold;
 				color: white;
-				text-align: left;
+				text-align: center;
 				text-shadow: 0 2px 1px  rgba(0,0,0,0.25);
 				margin-top: 10px;
 				margin-left: 50px;
@@ -134,7 +137,7 @@
 				width：100%；
 				     height: 100%;
 				    /* 加载背景图 */
-				    background:url(https://github.com/AAAAsea/index/blob/master/git%20image/wallhaven-vgj63p.png?raw=true) no-repeat;
+				    background: url(https://w.wallhaven.cc/full/6k/wallhaven-6k3oox.jpg	)  no-repeat;
 					animation-name: backdi;
 					animation-duration: 20s; 
 					animation-iteration-count: infinite;
@@ -150,9 +153,11 @@
 				　　
 			}
 			@keyframes backdi{
-				50%{opacity: 0.3;
-				transition: all 10s;}
-				opacity: 0.6;
+				50%{
+				background: url(https://github.com/AAAAsea/index/blob/master/git%20image/wallhaven-vgj63p.png?raw=true	)  no-repeat;	
+				transition: all 10s;
+				}
+				
 				
 			}
 			.geci{
@@ -228,17 +233,20 @@
 			}
 			
 			
-			h2 {
-				
-				transition:all 1s linear 0s;
-			}
-			h2 {
-				transition:all 1s ;
-			}
-			h2:hover {
-				padding-left:50px;
-				color: #949494;
+			
+			#ovo {
+				text-align: right;
+				color: white;
+				font-size: 20px;
 				font-weight: bold;
+				transition: 1s;
+				height: fit-content;
+				width: fit-content;
+				}
+			#ovo:hover {
+				color: #949494;
+				
+				
 			}
 			#box1{
 				width: 300px;
@@ -293,34 +301,31 @@
 	            document.documentElement.scrollTop = 0;
 	        }
 	    </script>
-	<body>		<div id="nav"></div>			
-		</div>
+	<body>
+		<div style="height: 100%;padding-top: 0;">
+		<div id="nav"></div>			
+		
 		<span style="position: fixed;top: 10px;right: 40px;box-shadow: 2px 2px 3px 5px rgba(0,0,0,0.25);border-radius: 2%;">
 			
 		<a href="https://aseahole.wordpress.com/" class="top" style="margin-right: 0px; ">日志</a>
 		<a href="#" class="top">首页</a>
 		<a href="#" class="top">作品</a>
 		<a href="#" class="top">关于</a></span>
-		<div class=font>
-			<h1 style="font-size: 30px; padding: 0;margin: 0; ">
-				    &nbsp;&nbsp;Hello! 
+	
+			<h1 class=font>
+				    Hello! 
+			</h1>
 					<br /><br />
 					
-						<h2 style="text-align: right;">
-							OvO!
-						</h2>
-					
-					
-			</h1>
-		</div>
-		
-			
+			<!--<div id="ovo">
+				OvO!
+			</div>-->
 				<br /><br /><br /><br /><br /><br />
-				<div ><p id="dazi" >
-					宁静致远
-				</p></div >
+				<div id="dazi">
+					·逢考必过·
+				</div >
 				
-				<div style="height: 100px;width: 400px;margin: 0 auto"><form style="width: 393px; margin: 0 auto;" target="_blank" name="bdfm" method="get" action="http://www.baidu.com/s">
+				<div style="height: fit-content;width: fit-content;margin: 0 auto"><form style="width: 393px; margin: 0 auto;" target="_blank" name="bdfm" method="get" action="http://www.baidu.com/s">
 				    <table >
 				       <tr >
 				            <td ><br/><input id="box1" type="text" id="search1" name="word" placeholder=" input to search"/></td>
@@ -335,6 +340,7 @@
 				<div style="font-size: calc(16px); letter-spacing: 5px; opacity:0.5; text-align: center; width: 100%;color: white;">
 					/*这里是Asea的个人主页*/</div>
 			<br /><br /><br /><br /><br /><br /><br /><br />
+			</div>
 			<div class="middle">
 				<div style="line-height: 90px;font-size: calc(45px);letter-spacing: 10px;text-align: center;color: #808080; ">
 					<p style=" width: 150px;margin:auto; box-shadow: 0 5px 5px 0px rgba(0,0,0,0.2);">关于</p>
