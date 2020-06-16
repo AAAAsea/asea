@@ -3,283 +3,13 @@
 <html>
 	
 	<head>
-		
+		<link rel="stylesheet" type="text/css" href="./css/index.css" />
 		<link rel="icon" href="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592279468349&di=47cde37138a42b15847f31105cd4f5a4&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic3%2Fcover%2F02%2F04%2F11%2F599d99ae4fbd7_610.jpg" type="image/x-icon">
 		<meta charset="utf-8" />
 		<title>
 			yohoo(*￣▽￣*)o
 		</title>
-		<style>
-			
-			
-			#myBtn {
-			            display: none;/* 默认隐藏 */
-			            position: fixed;
-			            bottom: 20px;
-			            right: 30px;
-			            z-index: 99;
-			            border: none;
-			            outline: none;
-			            background-image: linear-gradient(to top, #09203f 0%, #537895 100%);/* 设置背景颜色，你可以设置自己想要的颜色或图片 */
-			            color: white;/* 文本颜色 */
-			            cursor: pointer;
-			            padding: 15px;
-			            border-radius: 10px;/* 圆角 */
-			        }
-						            #myBtn:hover {
-							transition: all 1s;
-			                background-color: #555;
-			            }
-				
-			#nav{
-				display: none;/* 默认隐藏 */
-				position: fixed;
-				bottom: 0;
-				
-				z-index: 99;
-				border: none;
-				outline: none;
-				background-color: blue;	/* 设置背景颜色，你可以设置自己想要的颜色或图片 */
-				color: black;/* 文本颜色 */
-				cursor: pointer;
-				
-			}
-			#zuo:hover{
-				text-align:left;
-				transition: all 1s;
-			}
-			#you:hover{
-				text-align:right;
-				transition: all 1s;
-			}
-			
-			#dazi:hover{
-				
-				
-				opacity:0;
-				
-				}
-			#dazi{
-				color: white;	
-				width: fit-content;
-				height: fit-content;
-				margin: 0 auto;
-				text-align: center;
-				font-size: 50px;
-				animation-name:yuan;
-				animation-duration: 10s;
-				animation-iteration-count: infinite;
-				transition: all 3s;
-			}
-			
-			@keyframes yuan{
-				50%{
-					letter-spacing: 30px;
-					
-				}
-			}
-			.middle{
-				height:510px;
-				width:100%;
-				background-color: #e6fdff;
-				
-				box-shadow: 0px -5px 5px #000000;
-			}
-			a{
-				text-decoration:none}
-			.top{
-				height: 50px;
-				
-				margin-right: 50px;
-				
-				color: white;
-				float: right;
-				font-size: smaller;
-				text-shadow: 0 1px 2px  rgba(0,0,0,1);
-			
-				
-			}
-			a:hover{
-				border-bottom: medium solid rgb(0, 0, 0);
-				transition: all 0.3s;
-				
-			}
-			*{
-				margin: 0;
-				
-			}
-			.font{
-				width: fit-content;
-				height:  fit-content;
-				font-size: 50px;
-				font-weight: bold;
-				color: white;
-				text-align: center;
-				text-shadow: 0 2px 1px  rgba(0,0,0,0.25);
-				margin-top: 10px;
-				margin-left: 50px;
-				}
-				
-			
-			img{
-				height: 200px;
-				
-			    align: "middle";
-				margin-bottom: 0px;
-				border-radius: 5%;
-			}
-			html,body{
-				height: 100%;
-				margin: 0;
-			}
-			body{
-				
-				width：100%；
-				     height: 100%;
-				    /* 加载背景图 */
-				    background: url(https://w.wallhaven.cc/full/6k/wallhaven-6k3oox.jpg	)  no-repeat;
-					animation-name: backdi;
-					animation-duration: 20s; 
-					animation-iteration-count: infinite;
-				    /* 背景图垂直、水平均居中 */
-				    background-position: center center;
-				    /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
-				    background-attachment: fixed;
-				    /* 让背景图基于容器大小伸缩 */
-				    background-size: cover;
-				    /* 设置背景颜色，背景图加载过程中会显示背景色 */
-					
-					}
-				　　
-			}
-			@keyframes backdi{
-				50%{
-				background: url(https://github.com/AAAAsea/index/blob/master/git%20image/wallhaven-vgj63p.png?raw=true	)  no-repeat;	
-				transition: all 10s;
-				}
-				
-				
-			}
-			.geci{
-					
-				text-align: center;
-				line-height: 40px;
-				color: #00BFFF; 
-				font-family: "arial rounded mt bold";
-				font-size: 20px；
-				width: 100%;
-				height: 2200px;
-				box-shadow: 0px -5px 5px #000000;
-				background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
-			  		animation-name: huang;
-				    animation-duration: 20s; 
-				    animation-iteration-count: infinite;
-			}
-				
-			.footer1{
-				height:50px;
-				background-color: white;
-			}
-			.footer2{
-				height:50px;
-				
-				text-align: center;
-				font-size: 15px;
-				color: whitesmoke;
-				line-height: 50px;
-				font-family: "arial rounded mt bold";
-				
-			}
-			
-			@keyframes huang{
-				50%{
-					letter-spacing: 5px;
-					color: #B8860B;
-				}
-				
-			}
-			
-			.button{
-				width: 70px;
-				height: 40px;
-				background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
-				border-radius: 5%;
-				border-width: 0;
-				opacity: 0.5;
-					
-			}
-			#bottom{
-				height: 80px;
-			}
-			button:hover{
-				cursor: pointer;
-				transform: scale(1.3);
-				transition: all 0.5s;
-				box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.25)
-			}
-			img:hover{
-				transform: scale(1.15);
-				transition: all 0.5s;
-				animation-name: huang;
-				    animation-duration: 20s; 
-				    animation-iteration-count: infinite;
-			}
-			h1:hover{
-				opacity: 0;
-				transition: all 1.2s;
-				
-			}
 		
-			}
-			
-			
-			
-			#ovo {
-				text-align: right;
-				color: white;
-				font-size: 20px;
-				font-weight: bold;
-				transition: 1s;
-				height: fit-content;
-				width: fit-content;
-				}
-			#ovo:hover {
-				color: #949494;
-				
-				
-			}
-			#box1{
-				width: 300px;
-				height: 30px;
-				border-radius:5px;
-				box-shadow: 1px 1px 1px #4a4040;
-				opacity: 0.7;
-			}
-			#box2{
-				width: 70px;
-				height: 36px;
-				border-radius:5px;
-				color: gray;
-				opacity: 0.7;
-				
-			}
-			#box1:hover{
-				box-shadow: 0px 1px 0px 0px #79767f;
-				transition: all 0.3s;
-				transform: scale(1.01);
-				opacity: 1;
-			}
-			#box2:hover{
-				box-shadow: 0px 1px 0px 0px #79767f;
-				opacity: 1;
-				transform: scale(1.03);
-				transition: all 0.3s;
-				cursor: pointer;
-			}
-			
-			
-			
-		</style>
 	</head>
 	
 	<script>
@@ -303,50 +33,45 @@
 	    </script>
 	<body>
 		<div style="height: 100%;padding-top: 0;">
-		<div id="nav"></div>			
-		
-		<span style="position: fixed;top: 10px;right: 40px;box-shadow: 2px 2px 3px 5px rgba(0,0,0,0.25);border-radius: 2%;">
+			
+		<div class="nav">
 			
 		<a href="https://aseahole.wordpress.com/" class="top" style="margin-right: 0px; ">日志</a>
 		<a href="#" class="top">首页</a>
 		<a href="#" class="top">作品</a>
-		<a href="#" class="top">关于</a></span>
-	
-			<h1 class=font>
-				    Hello! 
-			</h1>
-					<br /><br />
-					
+		<a href="#" class="top">关于</a>
+		</div>
+		<h1 class=font>
+			 Hello! 
+		</h1>
+		<br /><br />
 			<!--<div id="ovo">
 				OvO!
 			</div>-->
-				<br /><br /><br /><br /><br /><br />
-				<div id="dazi">
-					·逢考必过·
-				</div >
-				
-				<div style="height: fit-content;width: fit-content;margin: 0 auto"><form target="_blank" name="bdfm" method="get" action="http://www.baidu.com/s">
-				<br />
-				    <table >
-				       <tr >
-				            <td ><input id="box1" type="text" id="search1" name="word" placeholder=" input to search"/></td>
-							
-				            <td >&nbsp;<input id="box2" type="submit" value="search" /></td>
-				         </tr>
-				    </table>
-					</form>
-				</div>
-				
-				<br /><br /><br />	<br /><br /><br /><br /><br />
-				<div style="font-size: calc(16px); letter-spacing: 5px; opacity:0.5; text-align: center; width: 100%;color: white;">
-					/*这里是Asea的个人主页*/</div>
-			<br /><br /><br /><br /><br /><br /><br /><br />
+		<br /><br /><br /><br /><br /><br />
+		<div id="search">
+			<div id="dazi">
+						宁静致远
+			</div >
+			<div style="height: fit-content;width: fit-content;margin: 0 auto"><form target="_blank" name="bdfm" method="get" action="http://www.baidu.com/s">
+					<br />
+						<table >
+						   <tr >
+								<td ><input id="box1" type="text" id="search1" name="word" placeholder=" input to search"/></td>
+								
+								<td >&nbsp;<input id="box2" type="submit" value="search" /></td>
+							 </tr>
+						</table>
+						</form>
 			</div>
+		</div>
+				<div id="xiaozi">
+					/*这里是Asea的个人主页*/</div>
+				</div>
 			<div class="middle">
 				<div style="line-height: 90px;font-size: calc(45px);letter-spacing: 10px;text-align: center;color: #808080; ">
 					<p style=" width: 150px;margin:auto; box-shadow: 0 5px 5px 0px rgba(0,0,0,0.2);">关于</p>
-					
-					
+
 				</div>
 				<div style="text-align: center;line-height: 40px;color: slategrey; box-shadow: 0px 0px 0px 0px #000000;">
 					<p id="zuo">|你好啊|</p>
