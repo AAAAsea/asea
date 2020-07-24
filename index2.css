@@ -296,6 +296,53 @@
 				opacity: 1;
 				
 			}
-			
+			.intro{
+				margin-top: 30px;
+				margin-left: 20vw;
+				margin-right: 20vw;
+				line-height: 40px;
+				font-size: 20px;
+				color: #ddd;
+				margin-bottom: 50px;
+				text-align: center;
+				background-color: #CCCC99;
+				padding: 40px;
+				box-shadow: 5px 5px 7px #2c2c2c;
+			}
+			.intro h1{
+				color: white;
+				float: left;
+			}
+			.intro h2{
+				margin: 30px auto;
+				color: #4c3c29;
+				
+			}
+			.intro ul li{
+				padding: 20px 0px;
+				list-style: none;
+				margin: 30px auto;
+				border-left: 0;
+				border-right: 0;
+				border-top: #E6FDFF solid 2px;
+				border-bottom: #E6FDFF solid 2px;
+				transition: all 0.2s;
+				box-shadow: 0px 1px 4px #555555;
+			}
+			.intro ul{
+				padding-left: 0;
+				color: #339966;
+				font-weight: 600;
+			}
+			#intro-sentence{
+				color: white;
+				font-size: 14px;
+				letter-spacing: 5px;
+			}
+			.intro ul li:hover{
+				transform: scale(1.05);
+				cursor: pointer;
+				
+			}
 			
 		
